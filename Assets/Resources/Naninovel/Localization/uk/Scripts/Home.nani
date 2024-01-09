@@ -1,0 +1,61 @@
+; English <en> to Ukrainian <uk> localization document for `Home` naninovel script
+
+# 6d66e509
+; I was just there.
+Я там щойно був.
+
+# 32aeef4
+; When I came home, I saw two girls.
+Прийшовши додому, я бачив двох дівчат.
+
+# 6b4e97a4
+; {PlayerName}: Coco 'it' didn't work!
+{PlayerName}: Coco 'це' не спрацювало!
+
+# 411cfb80
+; Rin: In the sense of 'this'? Let me see!
+Rin: У сенсі 'це'? Дай подивитись!
+
+# 8d711a3a
+; Coco: Well give me back 'it'!
+Coco: Добре поверни мені 'це'!
+
+# 9c1f446b
+; To whom should I give this?
+Кому ж 'це' віддати?
+
+# a3cf9057
+; @choice "Give 'it' to Coco." goto:.Coco
+@choice "Віддати 'це' Coco." goto:.Coco
+
+# cd9e0676
+; @choice "Give 'it' to Rin." goto:.Rin
+@choice "Віддати 'це' Rin." goto:.Rin
+
+# ba4700fc
+; @choice "Keep to yourself." goto:.Self
+@choice "Залишити собі." goto:.Self
+
+# 122461b6
+; I have nothing to do there yet.
+Мені поки що там нічого робити.
+
+# 1b3deb5a
+; Hmm...
+Хм...
+
+# 1b3deb5a
+; Hmm...
+Хм...
+
+# 1b3deb5a
+; Hmm...
+Хм...
+
+# 528a8d9
+; Rin: Hello, how are you?
+Rin: Привіт, як у тебе справи?
+
+# b76bce19
+; Rin: What you need?
+Rin: Що тобі потрібно?

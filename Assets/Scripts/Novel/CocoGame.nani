@@ -1,0 +1,13 @@
+@back Shop
+@char Coco
+Coco: Oh hello!
+Coco: I wanted to play the same game with you!
+@set quest="Play a game with Coco.";QuestId=2
+@miniGame
+Coco: Wow, you beat me, I didn't expect that!
+Coco: I give it to you, go to the temple and use "this" thing!
+@set ThisItem=true
+@hideChars
+@showUI Quest
+@set quest="Go to the temple and use 'it'.";QuestId=3
+@goto Map

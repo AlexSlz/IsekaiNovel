@@ -1,0 +1,24 @@
+@back Shrine
+@if QuestId==1
+Well, why did I come here, if Coco is probably in the store now.
+@goto Map
+@elseIf QuestId==3
+@choice "Apply 'it'." goto:.Use
+@choice "You need to think more." goto:.Refuse
+@stop
+@elseIf QuestId>=4
+I have nothing to do there yet.
+@goto Map
+@endIf
+
+#Use
+Hmm... nothing happened.
+You need to go to Coco and tell her that nothing happened.
+@set quest="Go to Coco.";QuestId=4
+@goto Map
+@stop
+
+#Refuse
+Hmmm...
+@goto Map
+@stop

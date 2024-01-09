@@ -1,0 +1,8 @@
+@hideChars
+@showUI MapButton
+@back Map
+Where should I go?[skipInput]
+@choice "Go Home" goto:Home
+@choice "Go to the store" goto:Shop
+@choice "Going to the temple" goto:Shrine
+@stop

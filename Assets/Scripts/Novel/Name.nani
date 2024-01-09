@@ -1,0 +1,9 @@
+@back Home
+I woke up...
+And I forgot my name... It happens...
+@input name summary:"A possible name"
+@stop
+@set PlayerName=name
+God, how could I forget my name {PlayerName}!
+I think you can lie still in bed after such a shock.
+@goto FirstMeeting

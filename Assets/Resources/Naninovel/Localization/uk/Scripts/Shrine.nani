@@ -1,0 +1,29 @@
+; English <en> to Ukrainian <uk> localization document for `Shrine` naninovel script
+
+# d61f584e
+; Well, why did I come here, if Coco is probably in the store now.
+Ну і навіщо я сюди прийшов, якщо Coco зараз напевно в магазині.
+
+# c8e2e8a1
+; @choice "Apply 'it'." goto:.Use
+@choice "Застосувати 'це'." goto:.Use
+
+# 1823393b
+; @choice "You need to think more." goto:.Refuse
+@choice "Потрібно ще подумати." goto:.Refuse
+
+# 122461b6
+; I have nothing to do there yet.
+Мені поки що там нічого робити.
+
+# 16d37ec3
+; Hmm... nothing happened.
+Хм... нічого не сталося.
+
+# 8afd1db
+; You need to go to Coco and tell her that nothing happened.
+Потрібно піти до Coco і сказати, що нічого не сталося.
+
+# 2fbce29a
+; Hmmm...
+Хммм.....

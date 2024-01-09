@@ -1,0 +1,24 @@
+@back Shop
+@if QuestId==1
+@goto CocoGame
+@elseIf QuestId==3||QuestId==5
+I was just there.
+@goto Map
+@elseIf QuestId==4
+There is no one here. Maybe you should go home.
+@set quest="Go home";QuestId=5
+@goto Map
+@elseIf QuestId==10
+@goto .End
+@endIf
+@stop
+
+#End
+@if CocoRep>=10
+@char Coco.OpenSmile
+Coco: Hello, how are you?
+@else
+@char Coco.Sad
+Coco: What do you need?
+@endIf
+@stop

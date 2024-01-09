@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98aa4b58b11e9d4ca9dd8a4bf7bb71d, type: 3}
+  m_Name: ScriptGraphState
+  m_EditorClassIdentifier: 
+  NodesState:
+  - scriptName: Test
+    position:
+      serializedVersion: 2
+      x: 68
+      y: 129
+      width: 135
+      height: 125
+  - scriptName: Name
+    position:
+      serializedVersion: 2
+      x: -50
+      y: 421
+      width: 143
+      height: 101
+  - scriptName: FirstMeeting
+    position:
+      serializedVersion: 2
+      x: 234
+      y: 427
+      width: 118
+      height: 101
+  - scriptName: Map
+    position:
+      serializedVersion: 2
+      x: 722
+      y: 364
+      width: 148
+      height: 149
+  - scriptName: CocoGame
+    position:
+      serializedVersion: 2
+      x: 1272
+      y: 396
+      width: 109
+      height: 101
+  - scriptName: Home
+    position:
+      serializedVersion: 2
+      x: 491
+      y: 125
+      width: 145
+      height: 389
+  - scriptName: Shop
+    position:
+      serializedVersion: 2
+      x: 940
+      y: 202
+      width: 135
+      height: 197
+  - scriptName: Shrine
+    position:
+      serializedVersion: 2
+      x: 879
+      y: 567
+      width: 154
+      height: 269

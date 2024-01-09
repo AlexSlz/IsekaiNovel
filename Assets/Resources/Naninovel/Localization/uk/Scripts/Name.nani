@@ -1,0 +1,21 @@
+; English <en> to Ukrainian <uk> localization document for `Name` naninovel script
+
+# bce574bc
+; I woke up...
+Я прокинувся...
+
+# 9ca614a4
+; And I forgot my name... It happens...
+И забув як мене звати... Буває ж таке...
+
+# fad88194
+; @input name summary:"A possible name"
+@input name summary:"Можливе ім'я"
+
+# bb185106
+; God, how could I forget my name {PlayerName}!
+Боже, як же я міг забути що мене звуть {PlayerName}!
+
+# c8b83943
+; I think you can lie still in bed after such a shock.
+Думаю, можна полежати ще в ліжку, після такого шоку.

@@ -1,0 +1,17 @@
+@back Home.Pixelate
+Lying on the bed, I thought about only one thing...
+Before I could lie down on the bed, someone ran into my room.
+@char Rin.Smile
+@spawn ShakeCamera
+Oh!
+So this is Rin, my old friend!
+Rin.OpenSmile: {PlayerName}!!! 
+Rin: Why are you still sleeping?
+{PlayerName}: Why not?
+Rin: Hmmm... Coco was just looking for you.
+Rin: Maybe you should go check on her.
+@showUI Quest
+@set quest="Talk to Coco.";QuestId=1
+{PlayerName}: I'm already moving forward!
+@hideAll
+@goto Map

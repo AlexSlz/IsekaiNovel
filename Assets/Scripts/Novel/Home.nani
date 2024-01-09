@@ -1,0 +1,58 @@
+@if QuestId==1
+I was just there.
+@goto Map
+@elseIf QuestId==5
+@back Home
+When I came home, I saw two girls.
+@char Coco
+@char Rin
+{PlayerName}: Coco 'it' didn't work!
+Rin: In the sense of 'this'? Let me see!
+Coco: Well give me back 'it'!
+To whom should I give this?
+@choice "Give 'it' to Coco." goto:.Coco
+@choice "Give 'it' to Rin." goto:.Rin
+@choice "Keep to yourself." goto:.Self
+@set quest="Make a difficult choice.";QuestId=10
+@hideUI Quest
+@stop
+@elseIf QuestId==10
+@goto .End
+@elseIf QuestId>1
+I have nothing to do there yet.
+@goto Map
+@endIf
+@stop
+
+#Coco
+Hmm...
+@set RinRep--
+@hideChars
+@goto Map
+@stop
+
+#Rin
+Hmm...
+@set CocoRep--
+@hideChars
+@goto Map
+@stop
+
+#Self
+Hmm...
+@set RinRep--
+@set CocoRep--
+@hideChars
+@goto Map
+@stop
+
+#End
+@back Home
+@if RinRep>=10
+@char Rin.OpenSmile
+Rin: Hello, how are you?
+@else
+@char Rin.Sad
+Rin: What you need?
+@endIf
+@stop

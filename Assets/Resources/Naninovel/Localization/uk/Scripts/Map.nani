@@ -1,0 +1,17 @@
+; English <en> to Ukrainian <uk> localization document for `Map` naninovel script
+
+# 2fe704d3
+; Where should I go?[skipInput]
+Куди мені піти?[skipInput]
+
+# 48ce06e0
+; @choice "Go Home" goto:Home
+@choice "Піти додому" goto:Home
+
+# 293eb7b0
+; @choice "Go to the store" goto:Shop
+@choice "Піти до магазину" goto:Shop
+
+# 3f98417
+; @choice "Going to the temple" goto:Shrine
+@choice "Піти до храму" goto:Shrine
